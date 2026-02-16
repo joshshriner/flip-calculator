@@ -451,7 +451,7 @@
             const purchase = parseFloat(purchasePrice.value) || 130000;
             const arv = parseFloat(arvValue.value) || 215000;
             
-            const holdingBuy = purchase * 0.0327;
+            const holdingBuy = purchase * 0.04;
             const closingSell = arv * 0.065;
             const breakeven = purchase + holdingBuy + totalRehab + closingSell;
             const profit = arv - breakeven;
